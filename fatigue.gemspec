@@ -50,7 +50,8 @@ Gem::Specification.new do |s|
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.
   s.add_dependency('nokogiri', ">= 1.4.0")
-  s.add_dependency('mechanize', '1.0.0')
+  s.add_dependency('mechanize', '2.7.2')
+  s.add_dependency('json', '1.8.1')
   s.add_dependency('ruby-progressbar', '0.0.9')
 
   ## List your development dependencies here. Development dependencies are
